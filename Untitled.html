@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html>
+
+<style type="text/css">
+  table, th, td {
+    border:1px solid black;
+  }
+  #element1 {float:left;}
+  #element2 {float:right;}
+</style>
+
 <body style="background-color:powderblue;">
 
 <h1 style="background-color:Tomato;">RESUME</h1>
-<img src="FormalShirt.jpg" alt='why not working' width="140" height="190"/>
-<pre style="color:red;"><b>
-DETAILS : Lucas Kuah, 19, Business Student
 
-<img src="email.jpg" width='17' height='17'/> EMAIL : KuahLucas@gmail.com
-     
-<img src="linkedin.jpg" width='17' height='17'/> LINKEDIN : @Lucas Kuah
-<b></pre>
+<div id='element1'>
+  <img src="FormalShirt.jpg" alt='why not working' width="140" height="190"/>
+</div>
+
+<div id='element2'>
+  <pre style="color:red;"><b>
+  DETAILS : Lucas Kuah, 19, Business Student
+
+  <img src="email.jpg" width='17' height='17'/> EMAIL : KuahLucas@gmail.com
+      
+  <img src="linkedin.jpg" width='17' height='17'/> LINKEDIN : @Lucas Kuah
+  <b></pre>
+</div>
+
+
 <hr>
-<style>
-table, th, td {
-  border:1px solid black;
-}
-</style>
+
+
 <h2 style="background-color:Tomato;">EXPERIENCE</h2>
 
 <table style="width:100%">
   <tr>
-    <th>Experience</th>
-    <th>Job Scope</th>
-    <th>Duration</th>
+    <th colspan="3">Experience</th>
   </tr>
   <tr>
     <td><pre>
@@ -34,7 +46,7 @@ table, th, td {
 	- Assisting in Warehouse packing & outbounding
 	- Product Listing and Thumbnail creation
     </pre></td>
-    <td><pre>
+    <td rowspan="2"><pre>
 	1st March - 21st May
     </pre></td>
   </tr>
@@ -46,9 +58,7 @@ table, th, td {
 	- Created Post Content
 	- Created Short Videos
     </pre></td>
-    <td><pre>
-	30th May - 1st September
-    </pre></td>
+
   </tr>
 </table>
 
