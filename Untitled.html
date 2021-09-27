@@ -4,44 +4,67 @@
   <link rel='stylesheet' href="font-awesome/css/font-awesome.min.css">
 </head>
 <style type="text/css">
+  
   table, th, td {
-    border:1px solid black;
-  }
-  #element1 {float:left;}
-  #element2 {float:center;}
+    border:1px solid black;}
 
-  h2.clear{clear:both;}
+  .intro {
+    background-color:aquamarine;
+    color:black;
+    border:2px solid black;
+    margin: 20px;
+    padding: 20px;}
+  
+  #myHeader {
+    background-color: rgb(234, 169, 250);
+    color: black;
+    padding: 40px;
+    text-align: center;}
+  
+  span.b {
+    display: block;
+    width: 200px;
+    height: 230px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow;}
+  
+  span.c {
+    display: inline-block;
+    width: 200px;
+    height: 230px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow;}
 </style>
 
 <body style="background-color:powderblue;">
 
 
-<h1 style="text-align:center;">RESUME</h1>
+<h1 id="myHeader"style="text-align:center;">RESUME</h1>
 
+<hr>
 
-<div id='element1'>
-  <img src="FormalShirt.jpg" alt='why not working' width="140" height="190"/>
-</div>
-
-<div id='element2'>
+<div class="intro">
   <pre><b>
-  DETAILS : Lucas Kuah, 19, Business Student
+  <span class="c"><img src="FormalShirt.jpg" alt='why not working' width="140" height="190"/></span> <span class="c"><span style="border: 1px solid black"> DETAILS </span> : Lucas Kuah, 19, Business Student</span>
+  
+  <span style="border: 1px solid black"> EMAIL </span> : KuahLucas@gmail.com
 
-  <img src="email.jpg" width='17' height='17'/> EMAIL : KuahLucas@gmail.com
-  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-  LINKEDIN : @Lucas Kuah
-  <b></pre>
+  <i class="fa fa-linkedin-square" aria-hidden="true"></i><span style="border: 1px solid black"> LINKEDIN </span> : <a href="https://www.linkedin.com/in/lucas-kuah/">@Lucas Kuah</a></span>
+  <img src="FormalShirt.jpg" alt='why not working' width="140" height="190"/>
+  <span style="border: 1px solid black"> DETAILS </span> : Lucas Kuah, 19, Business Student
+  
+  <span style="border: 1px solid black"> EMAIL </span> : KuahLucas@gmail.com
+
+  <i class="fa fa-linkedin-square" aria-hidden="true"></i><span style="border: 1px solid black"> LINKEDIN </span> : <a href="https://www.linkedin.com/in/lucas-kuah/">@Lucas Kuah</a>
+  </b></pre>
 </div>
 
-
-
-
-
-<h2 class='clear' style="background-color:Tomato;">EXPERIENCE</h2>
-
+<hr>
 <table style="width:100%">
   <tr>
-    <th colspan="3">Experience</th>
+    <th colspan="3" style="font-size:25px;">Experience</th>
   </tr>
   <tr>
     <td><pre>
@@ -68,16 +91,16 @@
   </tr>
 </table>
 
+<hr>
+<h2 style="text-align:center;">EDUCATION</h2>
 
+<div>
+  <p>Diploma in Business Management<p>
+  <pre>- Nanyang Polytechnic - (2019 - 2022)</pre>
 
-<h2 style="background-color:Tomato;">EDUCATION</h2>
-
-<p>Diploma in Business Management<p>
-<pre>- Nanyang Polytechnic - (2019 - 2022)</pre>
-
-<p>Secondary School</p>
-<pre>- Bowen Secondary - (2015 - 2018)</pre>
-
+  <p>Secondary School</p>
+  <pre>- Bowen Secondary - (2015 - 2018)</pre>
+</div>
 
 
 
